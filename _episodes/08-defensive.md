@@ -505,7 +505,7 @@ This violates another important rule of programming:
 > def get_total(values):
 >     assert len(values) > 0
 >     for element in values:
->     	assert int(element)
+>     \tassert int(element)
 >     values = [int(element) for element in values]
 >     total = sum(values)
 >     assert total > 0

@@ -3,9 +3,9 @@ layout: lesson
 root: .
 ---
 
-The best way to learn how to program is to do something useful,
-so this introduction to Python is built around a common scientific task:
-**data analysis**.
+プログラミングの仕方を学ぶ最も良い方法は何か有益なことをすることがあります。
+それで、このPythonの紹介は一般的な科学的タスクから作ったことがあります:
+**データ解析**
 
 ### Arthritis Inflammation
 We are studying **inflammation in patients** who have been given a new treatment for arthritis, and

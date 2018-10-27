@@ -192,8 +192,8 @@ it *always* means that there is a problem with how your code is indented.
 >
 > ~~~
 > def some_function():
-> 	msg = "hello, world!"
-> 	print(msg)
+> \tmsg = "hello, world!"
+> \tprint(msg)
 >         return msg
 > ~~~
 > {: .language-python}
