@@ -1,6 +1,8 @@
 ---
 layout: lesson
-root: .
+root: /ja/
+permalink: /ja/index.html
+permalink: index.html
 ---
 
 プログラミングの仕方を学ぶ最も良い方法は何か有益なことをすることがあります。
@@ -10,7 +12,7 @@ root: .
 ### Arthritis Inflammation
 We are studying **inflammation in patients** who have been given a new treatment for arthritis, and
 need to analyze the first dozen data sets of their daily inflammation. The data sets are stored in
-[comma-separated values]({{ page.root }}/reference/#comma-separated-values) (CSV) format:
+[comma-separated values]({{ page.root }}/reference.html#comma-separated-values) (CSV) format:
 
 - each row holds information for a single patient,
 - columns represent successive days.
@@ -22,6 +24,9 @@ The first three rows of our first file look like this:
 0,1,1,3,3,2,6,2,5,9,5,7,4,5,4,15,5,11,9,10,19,14,12,17,7,12,11,7,4,2,10,5,4,2,2,3,2,2,1,1
 ~~~
 {: .source}
+Each number represents the number of inflammation bouts that a particular patient experienced on a
+given day. For example, value "6" at row 3 column 7 of the data set above means that the third
+patient was experiencing inflammation six times on the seventh day of the clinical study.
 
 So, we want to:
 
@@ -30,16 +35,18 @@ So, we want to:
 
 To do all that, we'll have to learn a little bit about programming.
 
-> ## Prerequisites
+> ## 予備知識
 >
 > You need to understand the concepts of **files** and **directories** and how to start a Python
 > interpreter before tackling this lesson. This lesson sometimes references Jupyter
-> Notebook although you can use any Python interpreter mentioned in the [Setup](setup/).
+> Notebook although you can use any Python interpreter mentioned in the [Setup][lesson-setup].
 >
 > The commands in this lesson pertain to **Python 3**.
 {: .prereq}
 
 ### Getting Started
-To get started, follow the directions on the "[Setup](setup/)" page to download data
+To get started, follow the directions on the "[Setup][lesson-setup]" page to download data
 and install a Python interpreter.
+
+{% include links.md %}
 
