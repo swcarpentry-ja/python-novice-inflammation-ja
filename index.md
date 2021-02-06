@@ -2,6 +2,7 @@
 layout: lesson
 root: /ja/
 permalink: /ja/index.html
+permalink: index.html
 ---
 
 プログラミングの仕方を学ぶ最も良い方法は何か有益なことをすることがあります。
