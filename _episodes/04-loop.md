@@ -18,7 +18,7 @@ keypoints:
 In the last episode, we wrote Python code that plots values of interest from our first
 inflammation dataset (`inflammation-01.csv`), which revealed some suspicious features in it.
 
-![Analysis of inflammation-01.csv](../fig/03-loop_2_0.png)
+![Analysis of inflammation-01.csv](../../fig/03-loop_2_0.png)
 
 We have a dozen data sets right now, though, and more on the way.
 We want to create plots for all of our data sets with a single statement.
@@ -147,7 +147,7 @@ for variable in collection:
 
 Using the oxygen example above, the loop might look like this:
 
-![loop_image](../fig/loops_image.png)
+![loop_image](../../fig/loops_image.png)
 
 where each character (`char`) in the variable `word` is looped through and printed one character
 after another. The numbers in the diagram denote which loop cycle the character was printed in (1

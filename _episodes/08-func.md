@@ -54,7 +54,7 @@ def fahr_to_celsius(temp):
 ~~~
 {: .language-python}
 
-![Labeled parts of a Python function definition](../fig/python-function.svg)
+![Labeled parts of a Python function definition](../../fig/python-function.svg)
 
 
 The function definition opens with the keyword `def` followed by the

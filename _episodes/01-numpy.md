@@ -157,7 +157,7 @@ weight in kilograms is now: 65.0
 > A variable is analogous to a sticky note with a name written on it:
 > assigning a value to a variable is like putting that sticky note on a particular value.
 >
-> ![Variables as Sticky Notes](../fig/python-sticky-note-variables-01.svg)
+> ![Variables as Sticky Notes](../../fig/python-sticky-note-variables-01.svg)
 >
 > This means that assigning a value to one variable does **not** change the values of other variables.
 > For example, let's store the subject's weight in pounds in its own variable:
@@ -174,7 +174,7 @@ weight in kilograms is now: 65.0
 > ~~~
 > {: .output}
 >
-> ![Creating Another Variable](../fig/python-sticky-note-variables-02.svg)
+> ![Creating Another Variable](../../fig/python-sticky-note-variables-02.svg)
 >
 > Let's now change `weight_kg`:
 >
@@ -189,7 +189,7 @@ weight in kilograms is now: 65.0
 > ~~~
 > {: .output}
 >
-> ![Updating a Variable](../fig/python-sticky-note-variables-03.svg)
+> ![Updating a Variable](../../fig/python-sticky-note-variables-03.svg)
 >
 > Since `weight_lb` doesn't remember where its value came from,
 > it isn't automatically updated when `weight_kg` changes.
@@ -404,7 +404,7 @@ It takes a bit of getting used to,
 but one way to remember the rule is that
 the index is how many steps we have to take from the start to get the item we want.
 
-![Zero Index](../fig/python-zero-index.png)
+![Zero Index](../../fig/python-zero-index.png)
 
 > ## In the Corner
 >
@@ -652,7 +652,7 @@ next diagram on the left) or the average for each day (as in the
 diagram on the right)? As the diagram below shows, we want to perform the
 operation across an axis:
 
-![Operations Across Axes](../fig/python-operations-across-axes.png)
+![Operations Across Axes](../../fig/python-operations-across-axes.png)
 
 To support this functionality,
 most array functions allow us to specify the axis we want to work on.
@@ -725,7 +725,7 @@ matplotlib.pyplot.show()
 ~~~
 {: .language-python}
 
-![Heatmap of the Data](../fig/01-numpy_71_0.png)
+![Heatmap of the Data](../../fig/01-numpy_71_0.png)
 
 Blue pixels in this heat map represent low values, while yellow pixels represent high values.  As we
 can see, inflammation rises and falls over a 40-day period.
@@ -756,7 +756,7 @@ matplotlib.pyplot.show()
 ~~~
 {: .language-python}
 
-![Average Inflammation Over Time](../fig/01-numpy_73_0.png)
+![Average Inflammation Over Time](../../fig/01-numpy_73_0.png)
 
 Here, we have put the average per day across all patients in the variable `ave_inflammation`, then
 asked `matplotlib.pyplot` to create and display a line graph of those values.  The result is a
@@ -769,7 +769,7 @@ matplotlib.pyplot.show()
 ~~~
 {: .language-python}
 
-![Maximum Value Along The First Axis](../fig/01-numpy_75_1.png)
+![Maximum Value Along The First Axis](../../fig/01-numpy_75_1.png)
 
 ~~~
 min_plot = matplotlib.pyplot.plot(numpy.min(data, axis=0))
@@ -777,7 +777,7 @@ matplotlib.pyplot.show()
 ~~~
 {: .language-python}
 
-![Minimum Value Along The First Axis](../fig/01-numpy_75_3.png)
+![Minimum Value Along The First Axis](../../fig/01-numpy_75_3.png)
 
 The maximum value rises and falls smoothly, while the minimum seems to be a step function.  Neither
 trend seems particularly likely, so either there's a mistake in our calculations or something is
@@ -824,7 +824,7 @@ matplotlib.pyplot.show()
 ~~~
 {: .language-python}
 
-![The Previous Plots as Subplots](../fig/01-numpy_80_0.png)
+![The Previous Plots as Subplots](../../fig/01-numpy_80_0.png)
 
 The [call]({{ page.root }}/reference/#function-call) to `loadtxt` reads our data,
 and the rest of the program tells the plotting library
@@ -1027,7 +1027,7 @@ the graphs will actually be squeezed together more closely.)
 > > matplotlib.pyplot.show()
 > > ~~~
 > > {: .language-python}
-> ![Plot with step lines](../fig/01-numpy_exercise_0.png)
+> ![Plot with step lines](../../fig/01-numpy_exercise_0.png)
 > {: .solution}
 {: .challenge}
 

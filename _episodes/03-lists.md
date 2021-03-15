@@ -173,7 +173,7 @@ does not.
 > Here is a visual example of how indexing a list of lists `x` works:
 >
 > [![The first element of a list.
-> Adapted from @hadleywickham.](../fig/indexing_lists_python.png)][hadleywickham-tweet]
+> Adapted from @hadleywickham.](../../fig/indexing_lists_python.png)][hadleywickham-tweet]
 >
 > Using the previously declared list `x`, these would be the results of the
 > index operations shown in the image:

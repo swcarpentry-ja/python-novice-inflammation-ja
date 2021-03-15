@@ -27,7 +27,7 @@ matplotlib.pyplot.show()
 ~~~
 {: .language-python}
 
-![Heat map representing the `data` variable. Each cell is colored by value along a color gradient from blue to yellow.](../fig/inflammation-01-imshow.svg)
+![Heat map representing the `data` variable. Each cell is colored by value along a color gradient from blue to yellow.](../../fig/inflammation-01-imshow.svg)
 
 Blue pixels in this heat map represent low values, while yellow pixels represent high values.  As we
 can see, inflammation rises and falls over a 40-day period.  Let's take a look at the average inflammation over time:
@@ -39,7 +39,7 @@ matplotlib.pyplot.show()
 ~~~
 {: .language-python}
 
-![Average Inflammation Over Time](../fig/inflammation-01-average.svg)
+![Average Inflammation Over Time](../../fig/inflammation-01-average.svg)
 
 Here, we have put the average inflammation per day across all patients in the variable `ave_inflammation`, then
 asked `matplotlib.pyplot` to create and display a line graph of those values.  The result is a
@@ -52,7 +52,7 @@ matplotlib.pyplot.show()
 ~~~
 {: .language-python}
 
-![Maximum Value Along The First Axis](../fig/inflammation-01-maximum.svg)
+![Maximum Value Along The First Axis](../../fig/inflammation-01-maximum.svg)
 
 ~~~
 min_plot = matplotlib.pyplot.plot(numpy.min(data, axis=0))
@@ -60,7 +60,7 @@ matplotlib.pyplot.show()
 ~~~
 {: .language-python}
 
-![Minimum Value Along The First Axis](../fig/inflammation-01-minimum.svg)
+![Minimum Value Along The First Axis](../../fig/inflammation-01-minimum.svg)
 
 The maximum value rises and falls smoothly, while the minimum seems to be a step function.  Neither
 trend seems particularly likely, so either there's a mistake in our calculations or something is
@@ -108,7 +108,7 @@ matplotlib.pyplot.show()
 ~~~
 {: .language-python}
 
-![The Previous Plots as Subplots](../fig/inflammation-01-group-plot.svg)
+![The Previous Plots as Subplots](../../fig/inflammation-01-group-plot.svg)
 
 The [call]({{ page.root }}/reference.html#function-call) to `loadtxt` reads our data,
 and the rest of the program tells the plotting library
@@ -206,7 +206,7 @@ formats, including SVG, PDF, and JPEG.
 > > matplotlib.pyplot.show()
 > > ~~~
 > > {: .language-python}
-> ![Plot with step lines](../fig/inflammation-01-line-styles.svg)
+> ![Plot with step lines](../../fig/inflammation-01-line-styles.svg)
 > {: .solution}
 {: .challenge}
 

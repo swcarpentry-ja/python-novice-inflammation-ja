@@ -242,7 +242,7 @@ It takes a bit of getting used to,
 but one way to remember the rule is that
 the index is how many steps we have to take from the start to get the item we want.
 
-![Zero Index](../fig/python-zero-index.svg)
+![Zero Index](../../fig/python-zero-index.svg)
 
 > ## In the Corner
 >
@@ -438,7 +438,7 @@ diagram on the right)? As the diagram below shows, we want to perform the
 operation across an axis:
 
 ![Per-patient maximum inflammation is computed row-wise across all columns using numpy.max(data, axis=1).
-Per-day average inflammation is computed column-wise across all rows using numpy.mean(data, axis=0).](../fig/python-operations-across-axes.png)
+Per-day average inflammation is computed column-wise across all rows using numpy.mean(data, axis=0).](../../fig/python-operations-across-axes.png)
 
 To support this functionality,
 most array functions allow us to specify the axis we want to work on.
